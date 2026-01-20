@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(208, 193, 222);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#header-items{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+}
+
+#page-sections {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#actividad-list {
+    background-color: rgb(208, 193, 222);
+    width: 150px;
+    min-height: 90vh;
+    padding-top: 10px;
+}
+
+.activity {
+    padding: 10px;
+}
+
+#php {
+    display: flex;
+    align-items: center;
+    background-color: rgb(208, 193, 222);
+    width: 50px;
+    min-height: 90vh;
+    padding-top: 10px;
+}
+
+#php-text {
+    transform: rotate(-90deg);
+}
