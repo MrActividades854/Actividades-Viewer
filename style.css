@@ -24,6 +24,16 @@ header {
     align-items: center;
 }
 
+#menu-img {
+    height: 40px;
+    width: 40px;
+    padding-right:10px;
+}
+
+#user-profile {
+    
+}
+
 #page-sections {
     display: flex;
     list-style: none;
